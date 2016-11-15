@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_q8cPEFc5EeWo-40Qyxiobw" name="link_component" componentClass="LINK" displayName="Link Component">
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:appl="http://com.virtubuild/schemas/appl.ecore" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_q8cPEFc5EeWo-40Qyxiobw" name="link_component" componentClass="LINK" displayName="Link Component">
   <variables xsi:type="comp:DeclaredVariable" uuid="_YHRbsFdAEeWo-40Qyxiobw" name="height" visibility="800" initValue="50">
     <domain uuid="_YHRbsVdAEeWo-40Qyxiobw" name="local" visibility="300">
       <typeSet uuid="_GC9ixKTqEea8d6P1JTl01w" bitSet="10"/>
@@ -48,4 +48,136 @@
       <values uuid="N65819" name="NONE" editable="false" visibility="300"/>
     </domain>
   </roles>
+  <rulesVT uuid="_fj7sMKs4EeaqWZ42Jn99mQ" name="VT_Rule" checksum="b475c036ff6f3d5becdf7181b016f1792d29fd1e" modelType="VT_Model" language="None">
+    <fileVT href="../../model.build#_eCcEQKs4EeaqWZ42Jn99mQ"/>
+    <properties>VT type</properties>
+    <properties>Build type</properties>
+    <properties>Domain</properties>
+    <currentVariables uuid="_gLO8wKs4EeaqWZ42Jn99mQ" name="boolVar1" inUse="TRUE" alias="boolVar1">
+      <domain uuid="_gLO8was4EeaqWZ42Jn99mQ" name="local" visibility="300">
+        <typeSet uuid="_gLO8w6s4EeaqWZ42Jn99mQ" bitSet="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLRZAKs4EeaqWZ42Jn99mQ" name="False" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLSAEKs4EeaqWZ42Jn99mQ" name="_DisplayName" value="False"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLVDYKs4EeaqWZ42Jn99mQ" name="True" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLVDYas4EeaqWZ42Jn99mQ" name="_DisplayName" value="True"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="Bool"/>
+      <properties key="Build type" value="boolean"/>
+      <properties key="Domain" value="[False, True]"/>
+    </currentVariables>
+    <currentVariables uuid="_gLYGsKs4EeaqWZ42Jn99mQ" name="stringVar1" inUse="TRUE" alias="stringVar1">
+      <domain uuid="_gLYGsas4EeaqWZ42Jn99mQ" name="local" visibility="300">
+        <typeSet uuid="_gLYGs6s4EeaqWZ42Jn99mQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLYGtKs4EeaqWZ42Jn99mQ" name="str1" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLYGtas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str1"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLZU0Ks4EeaqWZ42Jn99mQ" name="str2" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLZU0as4EeaqWZ42Jn99mQ" name="_DisplayName" value="str2"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLZU0qs4EeaqWZ42Jn99mQ" name="str3" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLZU06s4EeaqWZ42Jn99mQ" name="_DisplayName" value="str3"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLZ74Ks4EeaqWZ42Jn99mQ" name="str4" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLZ74as4EeaqWZ42Jn99mQ" name="_DisplayName" value="str4"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4]"/>
+    </currentVariables>
+    <currentVariables uuid="_gLbKAKs4EeaqWZ42Jn99mQ" name="stringVar2" inUse="TRUE" alias="stringVar2">
+      <domain uuid="_gLbKAas4EeaqWZ42Jn99mQ" name="local" visibility="300">
+        <typeSet uuid="_gLbKA6s4EeaqWZ42Jn99mQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLbKBKs4EeaqWZ42Jn99mQ" name="str2" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLbKBas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str2"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLbxEKs4EeaqWZ42Jn99mQ" name="str3" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLbxEas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str3"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLbxEqs4EeaqWZ42Jn99mQ" name="str4" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLbxE6s4EeaqWZ42Jn99mQ" name="_DisplayName" value="str4"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLcYIKs4EeaqWZ42Jn99mQ" name="str5" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLcYIas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str5"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLc_MKs4EeaqWZ42Jn99mQ" name="str6" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLc_Mas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str6"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
+    </currentVariables>
+    <currentVariables uuid="_gLdmQKs4EeaqWZ42Jn99mQ" name="setFromStringVar1" inUse="TRUE" alias="setFromStringVar1">
+      <domain uuid="_gLdmQas4EeaqWZ42Jn99mQ" name="local" visibility="300">
+        <typeSet uuid="_gLdmQ6s4EeaqWZ42Jn99mQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLeNUKs4EeaqWZ42Jn99mQ" name="str1" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLeNUas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str1"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLeNUqs4EeaqWZ42Jn99mQ" name="str2" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLeNU6s4EeaqWZ42Jn99mQ" name="_DisplayName" value="str2"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLe0YKs4EeaqWZ42Jn99mQ" name="str3" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLe0Yas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str3"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLe0Yqs4EeaqWZ42Jn99mQ" name="str4" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLe0Y6s4EeaqWZ42Jn99mQ" name="_DisplayName" value="str4"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4]"/>
+    </currentVariables>
+    <currentVariables uuid="_gLgCgKs4EeaqWZ42Jn99mQ" name="setFromStringVar2" inUse="TRUE" alias="setFromStringVar2">
+      <domain uuid="_gLgCgas4EeaqWZ42Jn99mQ" name="local" visibility="300">
+        <typeSet uuid="_gLgCg6s4EeaqWZ42Jn99mQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLgChKs4EeaqWZ42Jn99mQ" name="str2" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLgpkKs4EeaqWZ42Jn99mQ" name="_DisplayName" value="str2"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLhQoKs4EeaqWZ42Jn99mQ" name="str3" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLhQoas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str3"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLh3sKs4EeaqWZ42Jn99mQ" name="str4" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLh3sas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str4"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLh3sqs4EeaqWZ42Jn99mQ" name="str5" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLh3s6s4EeaqWZ42Jn99mQ" name="_DisplayName" value="str5"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLiewKs4EeaqWZ42Jn99mQ" name="str6" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLiewas4EeaqWZ42Jn99mQ" name="_DisplayName" value="str6"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
+    </currentVariables>
+    <currentVariables uuid="_gLjF0Ks4EeaqWZ42Jn99mQ" name="stringCont" inUse="TRUE" alias="stringCont">
+      <domain uuid="_gLjF0as4EeaqWZ42Jn99mQ" name="local" visibility="300">
+        <typeSet uuid="_gLjF06s4EeaqWZ42Jn99mQ" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLjs4Ks4EeaqWZ42Jn99mQ" name="1" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLjs4as4EeaqWZ42Jn99mQ" name="_DisplayName" value="1"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLjs4qs4EeaqWZ42Jn99mQ" name="2" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLjs46s4EeaqWZ42Jn99mQ" name="_DisplayName" value="2"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLkT8Ks4EeaqWZ42Jn99mQ" name="3" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLkT8as4EeaqWZ42Jn99mQ" name="_DisplayName" value="3"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLkT8qs4EeaqWZ42Jn99mQ" name="4" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLkT86s4EeaqWZ42Jn99mQ" name="_DisplayName" value="4"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLk7AKs4EeaqWZ42Jn99mQ" name="5" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLk7Aas4EeaqWZ42Jn99mQ" name="_DisplayName" value="5"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_gLk7Aqs4EeaqWZ42Jn99mQ" name="6" editable="false">
+          <facets xsi:type="appl:PropertyFacet" uuid="_gLk7A6s4EeaqWZ42Jn99mQ" name="_DisplayName" value="6"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[1, 2, 3, 4, 5, 6]"/>
+    </currentVariables>
+  </rulesVT>
 </comp:Component>
