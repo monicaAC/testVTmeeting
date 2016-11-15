@@ -48,7 +48,8 @@
       <values uuid="N65819" name="NONE" editable="false" visibility="300"/>
     </domain>
   </roles>
-  <rulesVT uuid="_fj7sMKs4EeaqWZ42Jn99mQ" name="VT_Rule" checksum="b475c036ff6f3d5becdf7181b016f1792d29fd1e" modelType="VT_Model" language="None">
+  <rulesVT uuid="_fj7sMKs4EeaqWZ42Jn99mQ" name="VT_Rule" checksum="b475c036ff6f3d5becdf7181b016f1792d29fd1e" dirty="true" modelType="VT_Model" language="None">
+    <facets xsi:type="appl:MOAOMessage" uuid="_EYR9wKs5EeaqWZ42Jn99mQ" description="File changed" severity="Error"/>
     <fileVT href="../../model.build#_eCcEQKs4EeaqWZ42Jn99mQ"/>
     <properties>VT type</properties>
     <properties>Build type</properties>
