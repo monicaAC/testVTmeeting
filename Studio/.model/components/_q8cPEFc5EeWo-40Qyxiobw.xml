@@ -67,7 +67,7 @@
       <properties key="Build type" value="boolean"/>
       <properties key="Domain" value="[False, True]"/>
     </currentVariables>
-    <currentVariables uuid="_wrzhN6s6EeaqWZ42Jn99mQ" name="stringVar1" inUse="TRUE" alias="stringVar1">
+    <currentVariables uuid="_wrzhN6s6EeaqWZ42Jn99mQ" name="stringVar1" alias="stringVar1">
       <domain uuid="_wrzhOKs6EeaqWZ42Jn99mQ" name="local" visibility="300">
         <typeSet uuid="_wrzhOas6EeaqWZ42Jn99mQ" bitSet="2"/>
         <values xsi:type="appl:VTDomainValue" uuid="_wrzhOqs6EeaqWZ42Jn99mQ" name="1" editable="false">
@@ -87,7 +87,7 @@
       <properties key="Build type" value="integer"/>
       <properties key="Domain" value="[1, 2, 3, 4]"/>
     </currentVariables>
-    <currentVariables uuid="_wrzhQqs6EeaqWZ42Jn99mQ" name="stringVar2" inUse="TRUE" alias="stringVar2">
+    <currentVariables uuid="_wrzhQqs6EeaqWZ42Jn99mQ" name="stringVar2" alias="stringVar2">
       <domain uuid="_wrzhQ6s6EeaqWZ42Jn99mQ" name="local" visibility="300">
         <typeSet uuid="_wrzhRKs6EeaqWZ42Jn99mQ" bitSet="4"/>
         <values xsi:type="appl:VTDomainValue" uuid="_wrzhRas6EeaqWZ42Jn99mQ" name="str2" editable="false">
