@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_VFgY0KzVEeaa68X3T6bAiA" name="Component">
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" uuid="_VFgY0KzVEeaa68X3T6bAiA" name="Component">
   <geometry deletable="false" uuid="_VFgY0azVEeaa68X3T6bAiA" name="root">
     <parentPlugs uuid="_VFgY0qzVEeaa68X3T6bAiA" name="ParentPlug"/>
   </geometry>
+  <roles uuid="_ubWfYKzYEeaa68X3T6bAiA" name="Role">
+    <facets xsi:type="comp:PlugFacet" uuid="_ubWfaqzYEeaa68X3T6bAiA"/>
+    <domain uuid="_ubWfYazYEeaa68X3T6bAiA" name="local" visibility="300">
+      <typeSet uuid="_ubWfYqzYEeaa68X3T6bAiA" bitSet="65536"/>
+      <values uuid="_ubWfY6zYEeaa68X3T6bAiA" name="NONE" editable="false" visibility="300"/>
+    </domain>
+  </roles>
 </comp:Component>
